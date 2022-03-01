@@ -20,7 +20,7 @@ sudo apt-get upgrade -y
 sudo apt-get install openssh-server -y
 
 ## Install apt pkgs for _MainLine_  group...
-apt-get install micro nano wget curl git 
+apt-get install -qq micro nano wget curl git rsync cargo mosh qemu-guest-agent
 
 
 # Enable Firewall
